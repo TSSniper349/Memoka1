@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Quản lí thẻ">
+        <menu>
+            <item android:title="@string/new_language"
+                android:icon="@drawable/ic_baseline_add_24"/>
+            <item android:title="@string/all_the_card"
+                android:icon="@mipmap/menu"/>
+            <item android:title="@string/recent"
+                android:icon="@mipmap/clock_icon"/>
+            <item android:title="@string/stats"
+                android:icon="@mipmap/stat_icon"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/app">
+        <menu>
+            <item android:title="@string/login"
+                android:icon="@mipmap/avatar"/>
+            <item android:title="@string/setting"
+                android:icon="@mipmap/setting"/>
+            <item android:title="@string/trash"
+                android:icon="@mipmap/trash"/>
+        </menu>
+    </item>
+
+</menu>

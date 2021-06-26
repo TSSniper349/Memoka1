@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        android:layout_margin="5dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/wrong_word"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Word"
+                android:textSize="25dp"
+                android:textColor="@android:color/holo_red_light"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/right_definition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Definition"
+                android:textSize="25dp"
+                android:textColor="@android:color/holo_red_light"
+                android:layout_marginStart="180dp"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

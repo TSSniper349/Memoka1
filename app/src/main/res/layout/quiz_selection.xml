@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <Button
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:id="@+id/select_practice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trắc nghiệm"
+            android:textColor="#efbf76" />
+        <Button
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_below="@+id/select_practice"
+            android:id="@+id/matching_practice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ghép cặp"
+            android:textColor="#efbf76"/>
+        <Button
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:id="@+id/check_practice"
+            android:layout_below="@+id/matching_practice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Điền từ"
+            android:textColor="#efbf76"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FillQuiz"
+    android:background="#e6e6fa">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Light"
+        android:backgroundTint="#76a6ef"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/quiz_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#76A6EF"
+        app:cardCornerRadius="12dp">
+
+        <TextView
+            android:id="@+id/question_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Word"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textSize="36dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="230dp"
+        android:backgroundTint="#9fc0f3"
+        app:cardCornerRadius="12dp">
+
+        <EditText
+            android:id="@+id/answer_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textSize="32dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tiếp theo"
+        android:backgroundTint="#efbf76"
+        android:layout_marginTop="380dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:id="@+id/next_question"
+        />
+
+</RelativeLayout>

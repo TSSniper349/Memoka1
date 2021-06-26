@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="login">Đăng nhập</string>
+    <string name="all_the_card">Tất cả các thẻ</string>
+    <string name="stats">Số liệu thống kê</string>
+    <string name="setting">Cài đặt</string>
+    <string name="app">Ứng dụng</string>
+    <string name="openNavDrawer">Navigation Drawer Open</string>
+    <string name="closeNavDrawer">Navigation Drawer Close</string>
+    <string name="recent">Gần đây</string>
+    <string name="trash">Thùng rác</string>
+    <string name="add_new">Thêm bộ</string>
+    <string name="new_language">Thêm ngôn ngữ</string>
+    <string name="add_new_card">Thêm thẻ</string>
+
+</resources>
